@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:profilter/artist_list.dart';
+import 'package:profilter/artist_profile.dart';
 import 'package:profilter/splash_page.dart';
 import 'package:provider/provider.dart';
 import 'filter_service.dart';
@@ -23,7 +25,9 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      home: SplashPage(
+        cameras: [],
+      ),
     );
   }
 }

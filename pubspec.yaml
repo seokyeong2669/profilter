@@ -45,7 +45,12 @@ dependencies:
   toggle_switch: ^2.0.1
   sliding_switch: "1.0.0"
   change_app_package_name: ^1.0.0
-
+  camera: ^0.10.0
+  scroll_snap_list: ^0.9.1
+  photofilters: ^3.0.1
+  shared_preferences: ^2.0.15
+  # url_launcher: ^5.4.0 
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
